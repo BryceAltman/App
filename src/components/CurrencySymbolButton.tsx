@@ -17,6 +17,7 @@ type CurrencySymbolButtonProps = {
 function CurrencySymbolButton({onCurrencyButtonPress, currencySymbol}: CurrencySymbolButtonProps) {
     const styles = useThemeStyles();
     const {translate} = useLocalize();
+    // test signing
     return (
         <Tooltip text={translate('common.selectCurrency')}>
             <PressableWithoutFeedback
